@@ -32,9 +32,9 @@
                     @endfor
                 </select>
                 <select name="" id="">
-                    <option value="">Min.</option>
+                    <option value="">Minute</option>
                     @for ($i = 0; $i < 60; $i++)
-                        <option value="{{ $i }}"> {{ $i }} </option>                        
+                        <option value="{{ $i }}"> {{ $i }} </option>                    
                     @endfor
                 </select>
                 <select name="" id="">
@@ -45,6 +45,10 @@
             <div class="form-group">
                 <label for="">Number(s)</label>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="label">Upload phone number</div>
+                <input type="file" name="" id="">
             </div>
             <div class="form-group">
                 <label for="">Sender ID</label>
